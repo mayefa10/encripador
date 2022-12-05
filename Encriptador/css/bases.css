@@ -1,0 +1,10 @@
+:root{
+    --background-headerEncriptador:bisque ;
+    --color-inputTexto-mensaje: rgb(90, 75, 75);
+    --background-inputTexto-mensaje:rgb(192, 169, 142);
+    --background-body: url(../img/background.jpg);
+    --background-button: rgb(222, 200, 128);
+    --color-button:maroon;
+    --roboto:'Roboto', sans-serif;
+    --color-footer:rgb(126, 121, 121);
+  }

@@ -1,0 +1,66 @@
+.texto__encriptador {
+  align-items: center;
+  display: flex;
+  font-weight: 12px;
+  justify-content: space-between;
+  margin-top: 6em;
+}
+
+.area__encriptador {
+  width:0 auto;
+ 
+}
+
+.boton__encriptar__desencriptar {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputTexto,
+.mensaje {
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  color: var(--color-inputTexto-mensaje);
+  background-color: var(--background-inputTexto-mensaje);
+  outline: 2px solid #fff;
+  justify-self: unset;
+}
+.boton__copiar {
+ display: flex;
+ flex-direction: column;
+  
+}
+@media screen and (min-width: 0) {
+  .contenido__encriptador .texto__encriptador {
+    margin-bottom: 32rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contenido__encriptador .texto__encriptador {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 0) {
+  .contenido__encriptador .texto__encriptador {
+    flex-direction: column;
+  }
+  .inputTexto,
+  .mensaje {
+    justify-content: space-around;
+    margin: 2em auto;
+  }
+  .boton__encriptar__desencriptar {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contenido__encriptador .texto__encriptador {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

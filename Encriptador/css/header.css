@@ -1,0 +1,35 @@
+.header__encriptador {
+  background-color: var(--background-headerEncriptador);
+  text-transform: capitalize;
+  height: 90px;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo__header {
+  font-family: var(--roboto);
+  font-weight: bolder;
+  font-size: 3em;
+  width: 13em;
+}
+
+.logo__alura {
+  margin: 2rem 2rem;
+  align-items: center;
+  width: 3em;
+}
+@media screen and (min-width: 0) {
+  .header__encriptador {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__encriptador {
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+}

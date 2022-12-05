@@ -1,0 +1,19 @@
+.rodapieEncriptador {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30em auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.titulo__rodapie {
+    text-align: center;
+    font-style: italic; 
+
+}
+.contacto {
+    text-decoration: none;
+    color: beige;
+
+}

@@ -1,0 +1,46 @@
+body {
+  background: var(--background-body) no-repeat;
+  font-family: var(--roboto);
+  font-size: 35px;
+  height: 1024px;
+  width: 1440px;
+  left: -2277px;
+  top: 622px;
+  border-radius: 0px;
+
+}
+
+.contenido__encriptador {
+  width: 94%;
+  margin: 0 auto;
+}
+
+button {
+  background: var(--background-button);
+  border-radius: 0.5em;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #203275, -6px -6px 12px #fff;
+  font-size: 17px;
+  padding: 0.7em 1.7em;
+  align-items: flex-end;
+  text-transform: capitalize;
+  transition: all 0.3s;
+  color: var(--color-button);
+  font-weight: 600;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+}
+
+button:hover {
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #fff;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-footer);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
