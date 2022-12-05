@@ -38,7 +38,7 @@ button:hover {
 
 footer {
   font-family: Arial, Helvetica, sans-serif;
-  background: var(--color-footer);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;

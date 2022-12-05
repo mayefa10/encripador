@@ -8,12 +8,8 @@
 }
 
 .titulo__rodapie {
+    font-size: x-large;
     text-align: center;
     font-style: italic; 
-
-}
-.contacto {
-    text-decoration: none;
-    color: beige;
-
+    color: bisque;
 }
